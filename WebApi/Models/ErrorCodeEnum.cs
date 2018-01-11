@@ -50,13 +50,12 @@ namespace WebApi.Models
 
         [Description("用户密码不正确")]
         UserPwdCheckFaild = 8007,
-        #endregion
 
-        [Description("文物分类不正确(必须指定父级分类)")]
-        AntiquesClassError = 8008,
-        [Description("该大分类下已存在同名文物")]
-        AntiquesRepeat = 8009,
-        [Description("标识不能为空")]
-        IdentifyIsNull = 8010
+        [Description("企业已存在")]
+        CompanyAlreadyExist = 8008,
+
+        [Description("超级管理员不能删除")]
+        SuperManagerNotCanDelete = 8009
+        #endregion
     }
 }

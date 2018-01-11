@@ -79,7 +79,7 @@ namespace EmergencyData.MicroOrm.SqlGenerator
         }
 
         public SqlGenerator()
-            : this(ESqlConnector.MySql)
+            : this(ESqlConnector.Mssql)
         {
         }
 

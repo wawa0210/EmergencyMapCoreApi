@@ -17,3 +17,7 @@ D:\project\EmergencyMapCoreApi\WebApi\bin\Debug\netcoreapp2.0\EmergencyBaseServi
 D:\project\EmergencyMapCoreApi\WebApi\bin\Debug\netcoreapp2.0\EmergencyData.pdb
 D:\project\EmergencyMapCoreApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.dll
 D:\project\EmergencyMapCoreApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.pdb
+D:\project\EmergencyMapCoreApi\WebApi\bin\Debug\netcoreapp2.0\EmergencyCompany.dll
+D:\project\EmergencyMapCoreApi\WebApi\bin\Debug\netcoreapp2.0\EmergencyEntity.dll
+D:\project\EmergencyMapCoreApi\WebApi\bin\Debug\netcoreapp2.0\EmergencyCompany.pdb
+D:\project\EmergencyMapCoreApi\WebApi\bin\Debug\netcoreapp2.0\EmergencyEntity.pdb

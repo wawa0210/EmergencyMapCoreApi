@@ -7,8 +7,16 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "CommonLib/1.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "2.1.4.0"
+        },
         "runtime": {
           "CommonLib.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/2.1.4.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Protocols.dll": {}
         }
       }
     }
@@ -16,6 +24,11 @@
   "libraries": {
     "CommonLib/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Protocols/2.1.4.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

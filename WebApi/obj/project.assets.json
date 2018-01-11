@@ -5282,6 +5282,21 @@
           "bin/placeholder/EmergencyBaseService.dll": {}
         }
       },
+      "EmergencyCompany/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "CommonLib": "1.0.0",
+          "EmergencyBaseService": "1.0.0",
+          "EmergencyEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmergencyCompany.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmergencyCompany.dll": {}
+        }
+      },
       "EmergencyData/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -5293,6 +5308,16 @@
         },
         "runtime": {
           "bin/placeholder/EmergencyData.dll": {}
+        }
+      },
+      "EmergencyEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/EmergencyEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmergencyEntity.dll": {}
         }
       }
     }
@@ -13725,10 +13750,20 @@
       "path": "../EmergencyBaseService/EmergencyBaseService.csproj",
       "msbuildProject": "../EmergencyBaseService/EmergencyBaseService.csproj"
     },
+    "EmergencyCompany/1.0.0": {
+      "type": "project",
+      "path": "../EmergencyCompany/EmergencyCompany.csproj",
+      "msbuildProject": "../EmergencyCompany/EmergencyCompany.csproj"
+    },
     "EmergencyData/1.0.0": {
       "type": "project",
       "path": "../EmergencyData/EmergencyData.csproj",
       "msbuildProject": "../EmergencyData/EmergencyData.csproj"
+    },
+    "EmergencyEntity/1.0.0": {
+      "type": "project",
+      "path": "../EmergencyEntity/EmergencyEntity.csproj",
+      "msbuildProject": "../EmergencyEntity/EmergencyEntity.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13739,6 +13774,7 @@
       "Autofac.Extensions.DependencyInjection >= 4.2.0",
       "CommonLib >= 1.0.0",
       "EmergencyAccount >= 1.0.0",
+      "EmergencyCompany >= 1.0.0",
       "Exceptionless.AspNetCore >= 4.2.1982",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.AspNetCore.Antiforgery >= 2.0.1",
@@ -13783,6 +13819,9 @@
           "projectReferences": {
             "D:\\project\\EmergencyMapCoreApi\\EmergencyAccount\\EmergencyAccount.csproj": {
               "projectPath": "D:\\project\\EmergencyMapCoreApi\\EmergencyAccount\\EmergencyAccount.csproj"
+            },
+            "D:\\project\\EmergencyMapCoreApi\\EmergencyCompany\\EmergencyCompany.csproj": {
+              "projectPath": "D:\\project\\EmergencyMapCoreApi\\EmergencyCompany\\EmergencyCompany.csproj"
             },
             "D:\\project\\EmergencyMapCoreApi\\CommonLib\\CommonLib.csproj": {
               "projectPath": "D:\\project\\EmergencyMapCoreApi\\CommonLib\\CommonLib.csproj"

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Autofac;
 using EmergencyAccount.Application;
+using EmergencyCompany.Application;
 using Exceptionless;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -83,6 +84,8 @@ namespace WebApi
             // The generic ILogger<TCategoryName> service was added to the ServiceCollection by ASP.NET Core.
             // It was then registered with Autofac using the Populate method in ConfigureServices.
             builder.Register(c => new AccountService()).As<IAccountService>().InstancePerLifetimeScope();
+            builder.Register(c => new CompanyService()).As<ICompanyService>().InstancePerLifetimeScope();
+            builder.Register(c => new DangerousProductService()).As<IDangerousProductService>().InstancePerLifetimeScope();
             //builder.Register(c => new MuseumService(c.Resolve<EfDbContext>())).As<IMuseumService>().InstancePerLifetimeScope();
             //builder.Register(c => new AntiquesClassService(c.Resolve<EfDbContext>())).As<IAntiquesClassService>().InstancePerLifetimeScope();
             //builder.Register(c => new AntiquesService(c.Resolve<EfDbContext>())).As<IAntiquesService>().InstancePerLifetimeScope();

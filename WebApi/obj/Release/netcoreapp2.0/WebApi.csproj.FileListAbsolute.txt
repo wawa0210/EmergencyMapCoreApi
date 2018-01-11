@@ -17,3 +17,7 @@ D:\project\EmergencyMapCoreApi\WebApi\obj\Release\netcoreapp2.0\WebApi.AssemblyI
 D:\project\EmergencyMapCoreApi\WebApi\obj\Release\netcoreapp2.0\WebApi.AssemblyInfo.cs
 D:\project\EmergencyMapCoreApi\WebApi\obj\Release\netcoreapp2.0\WebApi.dll
 D:\project\EmergencyMapCoreApi\WebApi\obj\Release\netcoreapp2.0\WebApi.pdb
+D:\project\EmergencyMapCoreApi\WebApi\bin\Release\netcoreapp2.0\EmergencyCompany.dll
+D:\project\EmergencyMapCoreApi\WebApi\bin\Release\netcoreapp2.0\EmergencyEntity.dll
+D:\project\EmergencyMapCoreApi\WebApi\bin\Release\netcoreapp2.0\EmergencyCompany.pdb
+D:\project\EmergencyMapCoreApi\WebApi\bin\Release\netcoreapp2.0\EmergencyEntity.pdb
