@@ -1,0 +1,9 @@
+D:\project\EmergencyMapCoreApi\CommonLib\bin\Debug\netcoreapp2.0\CommonLib.deps.json
+D:\project\EmergencyMapCoreApi\CommonLib\bin\Debug\netcoreapp2.0\CommonLib.dll
+D:\project\EmergencyMapCoreApi\CommonLib\bin\Debug\netcoreapp2.0\CommonLib.pdb
+D:\project\EmergencyMapCoreApi\CommonLib\obj\Debug\netcoreapp2.0\CommonLib.csprojResolveAssemblyReference.cache
+D:\project\EmergencyMapCoreApi\CommonLib\obj\Debug\netcoreapp2.0\CommonLib.csproj.CoreCompileInputs.cache
+D:\project\EmergencyMapCoreApi\CommonLib\obj\Debug\netcoreapp2.0\CommonLib.AssemblyInfoInputs.cache
+D:\project\EmergencyMapCoreApi\CommonLib\obj\Debug\netcoreapp2.0\CommonLib.AssemblyInfo.cs
+D:\project\EmergencyMapCoreApi\CommonLib\obj\Debug\netcoreapp2.0\CommonLib.dll
+D:\project\EmergencyMapCoreApi\CommonLib\obj\Debug\netcoreapp2.0\CommonLib.pdb

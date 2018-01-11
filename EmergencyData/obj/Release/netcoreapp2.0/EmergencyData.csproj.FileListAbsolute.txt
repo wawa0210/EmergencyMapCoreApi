@@ -1,0 +1,9 @@
+D:\project\EmergencyMapCoreApi\EmergencyData\bin\Release\netcoreapp2.0\EmergencyData.deps.json
+D:\project\EmergencyMapCoreApi\EmergencyData\bin\Release\netcoreapp2.0\EmergencyData.dll
+D:\project\EmergencyMapCoreApi\EmergencyData\bin\Release\netcoreapp2.0\EmergencyData.pdb
+D:\project\EmergencyMapCoreApi\EmergencyData\obj\Release\netcoreapp2.0\EmergencyData.csprojResolveAssemblyReference.cache
+D:\project\EmergencyMapCoreApi\EmergencyData\obj\Release\netcoreapp2.0\EmergencyData.csproj.CoreCompileInputs.cache
+D:\project\EmergencyMapCoreApi\EmergencyData\obj\Release\netcoreapp2.0\EmergencyData.AssemblyInfoInputs.cache
+D:\project\EmergencyMapCoreApi\EmergencyData\obj\Release\netcoreapp2.0\EmergencyData.AssemblyInfo.cs
+D:\project\EmergencyMapCoreApi\EmergencyData\obj\Release\netcoreapp2.0\EmergencyData.dll
+D:\project\EmergencyMapCoreApi\EmergencyData\obj\Release\netcoreapp2.0\EmergencyData.pdb

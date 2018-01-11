@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D877B0D-6E68-40CE-A7D0-04807FF276D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmergencyData</RootNamespace>
+    <AssemblyName>EmergencyData</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.4\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BulkInsertRepository.cs" />
+    <Compile Include="DapperDbContext.cs" />
+    <Compile Include="DbContextFactory.cs" />
+    <Compile Include="IDapperDbContext.cs" />
+    <Compile Include="IDbContextFactory.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="MicroOrm\Attributes\IdentityAttribute.cs" />
+    <Compile Include="MicroOrm\Attributes\Joins\InnerJoinAttribute.cs" />
+    <Compile Include="MicroOrm\Attributes\Joins\JoinAttributeBase.cs" />
+    <Compile Include="MicroOrm\Attributes\Joins\LeftJoinAttribute.cs" />
+    <Compile Include="MicroOrm\Attributes\Joins\RightJoinAttribute.cs" />
+    <Compile Include="MicroOrm\Attributes\LogicalDelete\DeletedAttribute.cs" />
+    <Compile Include="MicroOrm\Attributes\LogicalDelete\StatusAttribute.cs" />
+    <Compile Include="MicroOrm\DapperRepository.cs" />
+    <Compile Include="MicroOrm\Enums\OrderDirection.cs" />
+    <Compile Include="MicroOrm\Extensions\TypeExtensions.cs" />
+    <Compile Include="MicroOrm\IDapperRepository.cs" />
+    <Compile Include="MicroOrm\SqlGenerator\ESqlConnector.cs" />
+    <Compile Include="MicroOrm\SqlGenerator\ExpressionHelper.cs" />
+    <Compile Include="MicroOrm\SqlGenerator\ISqlGenerator.cs" />
+    <Compile Include="MicroOrm\SqlGenerator\PropertyMetadata.cs" />
+    <Compile Include="MicroOrm\SqlGenerator\QueryParameter.cs" />
+    <Compile Include="MicroOrm\SqlGenerator\QueryResult.cs" />
+    <Compile Include="MicroOrm\SqlGenerator\SqlGenerator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlDapperRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

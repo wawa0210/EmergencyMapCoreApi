@@ -1,0 +1,15 @@
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\EmergencyAccount.deps.json
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\EmergencyAccount.dll
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\EmergencyAccount.pdb
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\CommonLib.dll
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\EmergencyBaseService.dll
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\EmergencyData.dll
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\CommonLib.pdb
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\EmergencyBaseService.pdb
+D:\project\EmergencyMapCoreApi\EmergencyAccount\bin\Release\netcoreapp2.0\EmergencyData.pdb
+D:\project\EmergencyMapCoreApi\EmergencyAccount\obj\Release\netcoreapp2.0\EmergencyAccount.csprojResolveAssemblyReference.cache
+D:\project\EmergencyMapCoreApi\EmergencyAccount\obj\Release\netcoreapp2.0\EmergencyAccount.csproj.CoreCompileInputs.cache
+D:\project\EmergencyMapCoreApi\EmergencyAccount\obj\Release\netcoreapp2.0\EmergencyAccount.AssemblyInfoInputs.cache
+D:\project\EmergencyMapCoreApi\EmergencyAccount\obj\Release\netcoreapp2.0\EmergencyAccount.AssemblyInfo.cs
+D:\project\EmergencyMapCoreApi\EmergencyAccount\obj\Release\netcoreapp2.0\EmergencyAccount.dll
+D:\project\EmergencyMapCoreApi\EmergencyAccount\obj\Release\netcoreapp2.0\EmergencyAccount.pdb
